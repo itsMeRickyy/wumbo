@@ -1,0 +1,74 @@
+:root {
+  --dark: #193766;
+  --primary: #3b82f6;
+}
+
+/* #CONTAINER {
+  background: #e4efff;
+} */
+
+#figma-templates,
+#list-templates {
+  list-style-image: url(../asset/Rectangle\ 623.svg);
+}
+#figma-costum,
+#list-costum {
+  list-style-image: url(../asset/Rectangle\ 623.svg);
+}
+
+#figma-costum #list-costum span {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+/* #figma-video {
+  background-image: url(../asset/design-costum/bg-blue-skew.svg);
+  background-repeat: no-repeat;
+  background-position: center 100%;
+} */
+
+#figmaVideo,
+.preview,
+.thumbnail {
+  background: #3b82f61a;
+}
+
+#figmaOptimized .X {
+  background: rgba(228, 132, 132, 0.473);
+}
+#figmaOptimized .Checklist {
+  background: rgba(132, 228, 156, 0.473);
+}
+
+#figmaOptimized .List-item li {
+  margin-bottom: 10px;
+}
+
+#figma-Optimized .btnDownload {
+  background: #3b82f610;
+}
+
+footer .FootTxt h1 {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+footer .FootTxt .link-footer {
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .wumboDescription {
+  font-weight: 200;
+}
+/* #footer {
+  background-image: url(../asset/design-costum/bg-footer.svg);
+} */
+
+/* #for-figma,
+card:hover {
+  background: var(--dark);
+  color: white;
+} */
